@@ -1,0 +1,19 @@
+{
+	"materialbasedirectory" : "",
+	"puppet" : 
+	{
+		"contours" : [],
+		"extrusion" : false,
+		"extrusionscale" : 0.20000000298023224,
+		"extrusionsmoothing" : 5,
+		"holes" : true,
+		"material" : "materials/1 #145.json",
+		"padding" : 7,
+		"slices" : [],
+		"subdivision" : 2,
+		"texture" : "materials/1 #145",
+		"weights" : null
+	},
+	"skinning" : false,
+	"version" : "PUED0001"
+}

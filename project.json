@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "1 1 1"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "Malkuth Floor",
+	"type" : "Scene",
+	"version" : 5,
+	"visibility" : "public",
+	"workshopid" : "2404493982",
+	"workshopurl" : "steam://url/CommunityFilePage/2404493982"
+}

@@ -1,0 +1,5212 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.029999999329447746,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.0,
+		"camerashakeroughness" : 0.0,
+		"camerashakespeed" : 0.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 1080,
+			"width" : 1920
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0399999618530273
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 48,
+			"image" : "models/뒷배경 #1430.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Background",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 60,
+						"length" : 359,
+						"mode" : "mirror",
+						"name" : "BGMove"
+					},
+					"relative" : true
+				},
+				"value" : "960.00000 540.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 13,
+			"image" : "models/1 #1566.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "1 #1566",
+			"origin" : "960.00000 540.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 1080.00000",
+			"solid" : true,
+			"visible" : false
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 89,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "0.37 0.37"
+							},
+							"id" : 90
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "0.37 0.37"
+							},
+							"id" : 91
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 94,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"NOISE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.0099999997764825821,
+								"noisescale" : 0.0099999997764825821,
+								"noisesmoothness" : 0.0099999997764825821,
+								"noisespeed" : 0.0099999997764825821,
+								"raythreshold" : 0.69999999999999996
+							},
+							"id" : 95,
+							"textures" : [ null, "util/white", "util/clouds_256" ]
+						},
+						{
+							"combos" : 
+							{
+								"CASTER" : 0,
+								"SAMPLES" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "0.98824 1.00000 0.14118",
+								"direction" : 3.1415929999999999,
+								"rayintensity" : 5,
+								"raylength" : 0.02
+							},
+							"id" : 97
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "2 2"
+							},
+							"id" : 98
+						},
+						{
+							"combos" : 
+							{
+								"KERNEL" : 1,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "2 2"
+							},
+							"id" : 99
+						},
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 9,
+								"COPYBG" : 0
+							},
+							"id" : 100,
+							"textures" : [ null, "_rt_imageLayerComposite_73_a" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 73,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Fullscreen",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 42,
+			"image" : "models/Y .json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Y ",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -31.802000000000021
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 28.197999999999979
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 60,
+						"length" : 359,
+						"mode" : "mirror",
+						"name" : "YesodMove"
+					},
+					"relative" : true
+				},
+				"value" : "961.80200 740.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "280.00000 705.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 202,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.0099999997764825821,
+								"noisescale" : 10,
+								"noisesmoothness" : 0.5,
+								"noisespeed" : 1,
+								"raythreshold" : 0.78000000000000003
+							},
+							"id" : 203,
+							"textures" : [ null, "util/white", "util/clouds_256" ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0 -2",
+								"color" : "0.9882352941176471 1 0.1411764705882353",
+								"raylength" : 0.0099999997764825821
+							},
+							"id" : 204
+						},
+						{
+							"id" : 205
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"id" : 206
+						},
+						{
+							"id" : 207,
+							"textures" : [ null, "_rt_imageLayerComposite_135_a" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 135,
+			"image" : "models/util/fullscreenlayer.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Fullscreen",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 196,
+			"image" : "models/1 #145.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "4F",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 719,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 820,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1539,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6919,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7829,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 880,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1639,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1701,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2520,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3340,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4160,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4919,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4980,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5739,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5800,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6559,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7829,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -100
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7829,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"events" : 
+						[
+							{
+								"$$hashKey" : "object:548",
+								"frame" : 719,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:549",
+								"frame" : 1539,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:550",
+								"frame" : 2359,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:551",
+								"frame" : 3179,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:552",
+								"frame" : 3999,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:553",
+								"frame" : 4819,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:554",
+								"frame" : 5639,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:555",
+								"frame" : 6459,
+								"name" : "Change"
+							},
+							{
+								"$$hashKey" : "object:556",
+								"frame" : 7279,
+								"name" : "Change"
+							}
+						],
+						"fps" : 60,
+						"length" : 7829,
+						"mode" : "loop",
+						"name" : "F4Move"
+					},
+					"relative" : true
+				},
+				"script" : "'use strict';\n\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nlet AnimationNameF4 = 'F4Move';\nlet AnimationNameF3 = 'F3Move';\nlet AnimationNameF2 = 'F2Move';\nlet AnimationNameB1 = 'B1Move';\n\nlet curstateF4 = 1; // 1 = UP 0 = NOR -1 = DOWN\nlet curstateF3 = 1;\nlet curstateF2 = 1;\nlet curstateB1 = 1;\n\nlet nextstate;\nlet StartFrame = 0;\n\nexport function animationEvent(event, value) {\n\tif (event.name == 'Change') {\n\t\t//thisScene.getLayer('Finger').play();\n\t\tthisLayer.getAnimation(AnimationNameF4).pause();\n\t\tconsole.log(\"animation stop!\");\n\t}\n}\n/**\n * @param {Vec3} value - for property 'origin'\n * @return {Vec3} - update current property value\n */\nexport function choose (curstate){\n\tlet R = Math.random();\n\tlet flag = thisScene.getLayer(\"Buttonin\").visible;\n\tnextstate = (R > 0.333) ? ((R > 0.666) ? -1 : 0) : 1;\n\tswitch(curstate){\n\t\tcase 1: // UP\n\t\t\tif(nextstate == 1 || flag == false) StartFrame = 0; //UP\n\t\t\telse if (nextstate == 0) StartFrame = 820; //NOR\n\t\t\telse StartFrame = 1640; //DOWN\n\t\t\tbreak;\n\t\tcase 0: // NOR\n\t\t\tif (nextstate == 0 || flag == false) StartFrame = 3280; //NOR\n\t\t\telse if(nextstate == 1) StartFrame = 2460; //UP\n\t\t\telse StartFrame = 4100; //DOWN\n\t\t\tbreak;\n\t\tcase -1: // DOWN\n\t\t\tif (nextstate == -1 || flag == false) StartFrame = 6560; //DOWN\n\t\t\telse if(nextstate == 1) StartFrame = 4920; //UP\n\t\t\telse if (nextstate == 0) StartFrame = 5740; //NOR\n\t\t\tbreak;\n\t}\n\treturn;\n}\nexport function update(value) {\n\tif(thisLayer.getAnimation(AnimationNameF4).isPlaying() == false){\n\t\tlet flag = thisScene.getLayer(\"Buttonin\").visible;\n\t\tchoose(curstateF4);\n\t\tconsole.log(\" curstate is \" + curstateF4 + \" nextstate is \"+ nextstate + \" starting frame is \" + StartFrame);\n\t\tif(flag) curstateF4 = nextstate;\n\t\tthisScene.getAnimation(AnimationNameF4).setFrame(StartFrame);\n\t\tchoose(curstateF3);\n\n\t\tconsole.log(\" curstate is \" + curstateF3 + \" nextstate is \"+ nextstate + \" starting frame is \" + StartFrame);\n\t\tif(flag) curstateF3 = nextstate;\n\t\tthisScene.getAnimation(AnimationNameF3).setFrame(StartFrame);\n\n\t\tchoose(curstateF2);\n\t\tconsole.log(\" curstate is \" + curstateF2 + \" nextstate is \"+ nextstate + \" starting frame is \" + StartFrame);\n\t\tif(flag) curstateF2 = nextstate;\n\t\tthisScene.getAnimation(AnimationNameF2).setFrame(StartFrame);\n\n\t\tchoose(curstateB1);\n\t\tconsole.log(\" curstate is \" + curstateB1 + \" nextstate is \"+ nextstate + \" starting frame is \" + StartFrame);\n\t\tif(flag) curstateB1 = nextstate;\n\t\tthisScene.getAnimation(AnimationNameB1).setFrame(StartFrame);\n\n\t\tthisScene.getAnimation(\"YesodMove\").setFrame(0);\n\t\tthisScene.getAnimation(\"HodMove\").setFrame(0);\n\t\tthisScene.getAnimation(\"NetzachMove\").setFrame(0);\n\t\tthisScene.getAnimation(\"BGMove\").setFrame(0);\n\t\tthisScene.getAnimation(AnimationNameF4).play();\n\t\tthisScene.getAnimation(AnimationNameF3).play();\n\t\tthisScene.getAnimation(AnimationNameF2).play();\n\t\tthisScene.getAnimation(AnimationNameB1).play();\n\t\t\n\t}\n\treturn value;\n}\n",
+				"value" : "930.00000 760.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 225.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 69,
+			"image" : "models/2 #449.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "3F",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 719,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 820,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1539,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6919,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 880,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1639,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1701,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2520,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3340,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4160,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4919,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4980,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5739,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5800,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6559,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -100
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"events" : [],
+						"fps" : 60,
+						"length" : 7379,
+						"mode" : "loop",
+						"name" : "F3Move"
+					},
+					"relative" : true
+				},
+				"value" : "960.00000 660.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 331.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 107,
+			"image" : "models/H.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "H",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 60,
+						"length" : 359,
+						"mode" : "mirror",
+						"name" : "HodMove"
+					},
+					"relative" : true
+				},
+				"value" : "420.00000 550.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "434.00000 1079.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 111,
+			"image" : "models/N.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "N",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -30
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 30
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 60,
+						"length" : 359,
+						"mode" : "mirror",
+						"name" : "NetzachMove"
+					},
+					"relative" : true
+				},
+				"value" : "1580.00000 550.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "395.00000 1080.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 63,
+			"image" : "models/3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "2F",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 719,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 820,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1539,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2359,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3179,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3999,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4819,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5639,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6919,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 60
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7279,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 880,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1639,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1701,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2520,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3340,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4160,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4919,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4980,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5739,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5800,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6559,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"events" : [],
+						"fps" : 60,
+						"length" : 7379,
+						"mode" : "loop",
+						"name" : "F2Move"
+					},
+					"relative" : true
+				},
+				"value" : "930.00000 500.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 482.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 51,
+			"image" : "models/바닥1.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Floor",
+			"origin" : "960.00000 380.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.48535 1.00000",
+			"size" : "1920.00000 259.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 28,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "267.89667 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 145,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "498.22842 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 147,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "730.34589 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 149,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "960.42041 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 151,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1190.04016 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 157,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1422.52515 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 159,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1652.05859 523.39691 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.38000 0.38000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 166,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "384.71106 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 168,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "617.13873 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 183,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "841.83331 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 185,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1072.84448 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 187,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1310.38831 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 189,
+			"image" : "models/1 #1502.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #1502",
+			"origin" : "1533.45935 252.42563 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.40000 0.40000 0.30000",
+			"size" : "106.00000 196.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 131,
+			"image" : "models/1 #441.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "1 #441",
+			"origin" : "960.00000 34.77933 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 329.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 37,
+			"image" : "models/5 #1378.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "B1",
+			"origin" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 880,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1179,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1639,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1640,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1701,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1999,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2459,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2460,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2520,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 2819,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3280,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 3340,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4100,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4160,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4459,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4919,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4920,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 4980,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5279,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5739,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5740,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 5800,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6099,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6559,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -50
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 6560,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : false,
+							"locklength" : false,
+							"value" : -100
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -100
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 7379,
+							"front" : 
+							{
+								"enabled" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"events" : [],
+						"fps" : 60,
+						"length" : 7379,
+						"mode" : "loop",
+						"name" : "B1Move"
+					},
+					"relative" : true
+				},
+				"value" : "960.00000 80.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "1920.00000 339.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 328,
+			"locktransforms" : false,
+			"maxtime" : 8.8000001907348633,
+			"mintime" : 8.1700000762939453,
+			"muteineditor" : false,
+			"name" : "Battle1",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/말쿠트_구간1.wav" ],
+			"startsilent" : true,
+			"volume" : 1.0
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 363,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "Battle2",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/말쿠트_구간2.wav" ],
+			"startsilent" : true,
+			"volume" : 1.0
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 144,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "Battle3",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "loop",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/Malkuth battle 3.mp3" ],
+			"startsilent" : true,
+			"volume" : 1.0
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 186,
+			"locktransforms" : false,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : false,
+			"name" : "Finger",
+			"origin" : "0.00000 0.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"playbackmode" : "single",
+			"scale" : "1.00000 1.00000 1.00000",
+			"sound" : [ "sounds/손가락딱.wav" ],
+			"startsilent" : true,
+			"volume" : 1.0
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 355,
+			"image" : "models/EmotionCardSelection_Title_Level1.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "EmotionCardSelection_Title_Level1",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n// INFO: You must replace the name with the name of the layer in your scene!\n//       Create that layer with the sound mode 'single' and choose the 'start silent' option too.\nlet soundLayerName = 'Battle1';\n\n/**\n * @param {ICursorEvent} event\n */\nexport function cursorClick(event) {\n\tthisScene.getLayer(soundLayerName).play();\n\tthisScene.getLayer('Battle2').stop();\n\tthisScene.getLayer('Battle3').stop();\n\tthisScene.getLayer('Finger').play();\n\tthisObject.scale.y = 0.5;\n}\n",
+				"value" : "1750.00000 1030.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 1.00000",
+			"size" : "559.00000 565.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 359,
+			"image" : "models/EmotionCardSelection_Title_Level2.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "EmotionCardSelection_Title_Level2",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n// INFO: You must replace the name with the name of the layer in your scene!\n//       Create that layer with the sound mode 'single' and choose the 'start silent' option too.\nlet soundLayerName = 'Battle2';\n\n/**\n * @param {ICursorEvent} event\n */\nexport function cursorClick(event) {\n\tthisScene.getLayer(soundLayerName).play();\n\tthisScene.getLayer('Battle1').stop();\n\tthisScene.getLayer('Battle3').stop();\n\tthisScene.getLayer('Finger').play();\n}\n",
+				"value" : "1800.00000 1030.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 1.00000",
+			"size" : "559.00000 564.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 193,
+			"image" : "models/EmotionCardSelection_Title_Level3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "EmotionCardSelection_Title_Level3",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n// INFO: You must replace the name with the name of the layer in your scene!\n//       Create that layer with the sound mode 'single' and choose the 'start silent' option too.\nlet soundLayerName = 'Battle3';\n\n/**\n * @param {ICursorEvent} event\n */\nexport function cursorClick(event) {\n\tthisScene.getLayer(soundLayerName).play();\n\tthisScene.getLayer('Battle1').stop();\n\tthisScene.getLayer('Battle2').stop();\n\tthisScene.getLayer('Finger').play();\n}\n",
+				"value" : "1850.00000 1030.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 1.00000",
+			"size" : "559.00000 568.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 201,
+			"image" : "models/AfterIcon_4_3.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "AfterIcon_4_3",
+			"origin" : 
+			{
+				"script" : "'use strict';\n\n// INFO: You must replace the name with the name of the layer in your scene!\n//       Create that layer with the sound mode 'single' and choose the 'start silent' option too.\n/**\n * @param {ICursorEvent} event\n */\nexport function cursorClick(event) {\n\tthisScene.getLayer('Battle1').stop();\n\tthisScene.getLayer('Battle2').stop();\n\tthisScene.getLayer('Battle3').stop();\n\tthisScene.getLayer('Finger').play();\n}\n",
+				"value" : "1700.00000 1030.00000 0.00000"
+			},
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.25000 0.25000 1.00000",
+			"size" : "219.00000 218.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 214,
+			"image" : "models/3. GachaUI_Center_OuterFrame.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Buttonout",
+			"origin" : "1850.00000 980.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 1.00000",
+			"size" : "363.00000 409.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"script" : "'use strict';\n\n/**\n * @param {Boolean} value - for property 'visible'\n * @return {Boolean} - update current property value\n */\nlet flag = 1;\n\nexport function cursorClick(event) {\n\tthisScene.getLayer(\"Finger\").play();\n\tif(flag == 1){\n\t\tflag = 0;\n\t\tthisScene.getLayer(\"Buttonin\").visible = false;\n\t}\n\telse {\n\t\tflag = 1;\n\t\tthisScene.getLayer(\"Buttonin\").visible = true;\n\t}\n}\n",
+				"value" : true
+			}
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 218,
+			"image" : "models/4. GachaUI_Center_Lighting.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "Buttonin",
+			"origin" : "1850.00000 980.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "0.10000 0.10000 1.00000",
+			"size" : "653.00000 671.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 1
+}
